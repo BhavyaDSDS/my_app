@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main{
+  width: 65%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: black;
+  padding: 40px;
+}
+
+.text_color_white{
+  color: white;
+}
+
+.items_align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cursore_pointer{
+  cursor: pointer;
+}
+
+.show_item_card{
+  width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  
+
+}
+
+.justfy_center{
+  justify-content: center;
+}
+
+.align_center{
+  align-items: center;
+}
+
+
+.cart_badge{
+  width: fit-content;
+  border-radius: 11px;
+  background-color: aqua;
+  display: flex;
+  padding: 12px;
+  margin-left: auto;
+}
+
+.item_background{
+  background-color: blueviolet;
+  text-decoration: underline;
+}
+
+.template_card{
+  width: 200px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0.003;
+}
+
